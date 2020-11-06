@@ -1,6 +1,6 @@
-package JanVenTah;
 
-class Wheels //start Wheels class
+
+public class Wheels //start Wheels class
 {
     private double wheelSize;
     private int numTires;
@@ -11,7 +11,7 @@ class Wheels //start Wheels class
     }
     public Wheels()//zero-arg constructor
     {
-        double wheelSize = 19.6;
-        int numTires = 2;
+        wheelSize = 19.6;
+        numTires = 2;
     }
 }
