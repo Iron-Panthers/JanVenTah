@@ -6,7 +6,12 @@ class Wheels
     private int numTires;
     public Wheels(double wheelSize, int numTires)
     {
-        this.wheelSize = heelSize;
+        this.wheelSize = wheelSize;
         this.numTires = numTires;
+    }
+    public Wheels()
+    {
+        double wheelSize = 19.6;
+        int numTires = 2;
     }
 }
