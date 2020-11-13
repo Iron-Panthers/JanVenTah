@@ -9,9 +9,10 @@ public class Wheels //start Wheels class
         this.wheelSize = wheelSize;
         this.numTires = numTires;
     }
-    public Wheels()//zero-arg constructor
+    public String toString()
     {
-        wheelSize = 19.6;
-        numTires = 2;
+        String wheelPrint = new String();
+        wheelPrint = "The wheel size is " + wheelSize + " and there are " + numTires + " tires on the bike.";
+        return wheelPrint;
     }
 }

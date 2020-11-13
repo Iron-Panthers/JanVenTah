@@ -4,9 +4,15 @@ public class Brake
 {
     private int pads;
     private double wheelCylinders;
-    public Brake()
+    public Brake(int pads, double wheelCylinders)
     {
-        pads = 4;
+        this.pads=pads;
+        this.wheelCylinders=wheelCylinders;
     }
-
+    public String toString()
+    {
+        String brakePrint = new String();
+        brakePrint = "There are " + pads + " pads and " + wheelCylinders + " wheel cylinders.";
+        return brakePrint;
+    }
 }
